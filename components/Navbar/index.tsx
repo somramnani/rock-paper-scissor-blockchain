@@ -17,7 +17,7 @@ const Navbar: FC = () => {
           </Typography>
 
           <Button color="inherit">
-            <Link href="">
+            <Link href="/">
               <a>Home</a>
             </Link>
           </Button>
@@ -29,7 +29,7 @@ const Navbar: FC = () => {
           </Button>
 
           <Button color="inherit">
-            <Link href="">
+            <Link href="/about">
               <a>About</a>
             </Link>
           </Button>

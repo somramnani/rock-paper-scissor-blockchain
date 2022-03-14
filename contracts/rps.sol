@@ -21,11 +21,11 @@ contract rps {
     
     function setPlayer(string p1choice,string p2choice) {
       player1Choice = p1choice;
-	    player2Choice= p2choice;
+	    player2Choice = p2choice;
 	    rpsEv(player1Choice,player2Choice);
     }
     
-    function rps() {
+    constructor rps() {
       payoffMatrix["rock"]["rock"] = 0;
       payoffMatrix["rock"]["paper"] = 2;
       payoffMatrix["rock"]["scissors"] = 1;
@@ -44,6 +44,7 @@ contract rps {
     function getPlayer2Choice() view public returns (string) {
       return (player2Choice);
     }
+
     function getWinner() constant returns (int x) {
       return payoffMatrix[player1Choice][player2Choice];
     }
