@@ -1,9 +1,6 @@
-import { makeStyles } from "@mui/styles";
-import { createTheme } from "@mui/material/styles";
+import { makeStyles } from "../../lib/utils/makeStyles";
 
-const theme = createTheme();
-
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles()((theme) => ({
   root: {
     "& > * + *": {
       marginTop: theme.spacing(2),

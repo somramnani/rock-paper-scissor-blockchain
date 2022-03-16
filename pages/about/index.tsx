@@ -5,7 +5,6 @@ import Navbar from "../../components/Navbar";
 import Image from "next/image";
 
 const About: NextPage = () => {
-  // const classes = useStyles();
   return (
     <div>
       <Head>

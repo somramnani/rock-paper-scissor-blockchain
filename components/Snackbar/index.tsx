@@ -1,11 +1,11 @@
-// import { SnackbarContext } from 'providers/SnackbarProvider'
+import { SnackbarContext } from "../../providers/SnackbarProvider";
 import Alert from "@mui/material/Alert";
 import React, { FC, useContext } from "react";
 import Snackbar from "@mui/material/Snackbar";
 import useStyles from "./styles";
 
 const PositionedSnackbar: FC = () => {
-  // const { message, type, open, closeSnackbar } = useContext(SnackbarContext);
+  const { message, type, open, closeSnackbar } = useContext(SnackbarContext);
   const { classes } = useStyles();
   return (
     <div>
