@@ -3,8 +3,6 @@ import Head from "next/head";
 import Navbar from "../components/Navbar";
 import useStyles from "./styles";
 import Image from "next/image";
-import useSnackbar from "../hooks/useSnackbar";
-import Snackbar from "../components/Snackbar";
 
 const Home: NextPage = () => {
   const classes = useStyles();
