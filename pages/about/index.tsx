@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../../components/Navbar";
-// import useStyles from "./styles";
 import Image from "next/image";
 
 const About: NextPage = () => {
