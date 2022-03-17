@@ -26,4 +26,5 @@ const PositionedSnackbar: FC = () => {
     </div>
   );
 };
+
 export default PositionedSnackbar;
