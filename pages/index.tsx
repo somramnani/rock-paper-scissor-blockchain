@@ -2,12 +2,9 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
-import useSnackbar from "../hooks/useSnackbar";
+import React, { useEffect } from "react";
 
 const Home: NextPage = () => {
-  const { showSnackbar } = useSnackbar();
-  showSnackbar({ message: "Successfully logged out!", type: "success" });
-
   return (
     <div>
       <Head>
