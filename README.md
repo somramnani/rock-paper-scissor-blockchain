@@ -7,7 +7,7 @@ A simple DApp that is a rock, paper, scissor game.
 - Must have metamask installed and ether from the Ropsten network
 - Players start the game with metamask
 
-## Tools/Languages Used:
+## Key Technologies:
 
 - ReactJS
 - NextJS
