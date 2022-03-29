@@ -1,14 +1,13 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Navbar from "../components/Navbar";
+import Navbar from "../../components/Navbar";
 import Image from "next/image";
-import React, { useEffect } from "react";
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>RPS</title>
+        <title>About</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -24,4 +23,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default About;
