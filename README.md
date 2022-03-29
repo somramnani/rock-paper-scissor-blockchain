@@ -11,6 +11,5 @@ A simple DApp that is a rock, paper, scissor game.
 
 - ReactJS
 - NextJS
-- MUI-5
 - JavaScript
 - Solidity
