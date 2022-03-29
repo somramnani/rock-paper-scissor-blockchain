@@ -11,5 +11,6 @@ A simple DApp that is a rock, paper, scissor game.
 
 - ReactJS
 - NextJS
+- TypeScript
 - JavaScript
 - Solidity
