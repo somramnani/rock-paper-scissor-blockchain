@@ -1,5 +1,5 @@
-import { Color } from '@material-ui/lab/Alert'
-import React, { FC, useState } from 'react'
+import { Color } from "@material-ui/lab/Alert"
+import React, { FC, useState } from "react"
 
 export type ShowSnackbarOptions = {
   message: string
@@ -19,9 +19,9 @@ export type SnackBarContextActions = {
 export const SnackbarContext = React.createContext({} as SnackBarContextActions)
 
 const SnackbarProvider: FC = (props) => {
-  const [message, setMessage] = useState<string>('')
+  const [message, setMessage] = useState<string>("")
   const [open, setOpen] = useState<boolean>(false)
-  const [type, setType] = useState<Color>('success')
+  const [type, setType] = useState<Color>("success")
 
   const closeSnackbar = (): void => {
     setOpen(false)
@@ -41,7 +41,11 @@ const SnackbarProvider: FC = (props) => {
     type,
   }
 
-  return <SnackbarContext.Provider value={contextValue}>{props.children}</SnackbarContext.Provider>
+  return (
+    <SnackbarContext.Provider value={contextValue}>
+      {props.children}
+    </SnackbarContext.Provider>
+  )
 }
 
 export default SnackbarProvider

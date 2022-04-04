@@ -1,11 +1,11 @@
-import "../styles/globals.css";
-import type { AppProps } from "next/app";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
-import SnackbarProvider from "../providers/SnackbarProvider";
-import PositionedSnackbar from "../components/Snackbar";
+import "../styles/globals.css"
+import type { AppProps } from "next/app"
+import { createTheme, ThemeProvider } from "@mui/material/styles"
+import SnackbarProvider from "../providers/SnackbarProvider"
+import PositionedSnackbar from "../components/Snackbar"
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const theme = createTheme();
+  const theme = createTheme()
 
   return (
     <ThemeProvider theme={theme}>
@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <PositionedSnackbar />
       </SnackbarProvider>
     </ThemeProvider>
-  );
+  )
 }
 
-export default MyApp;
+export default MyApp
