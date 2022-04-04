@@ -1,8 +1,8 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Navbar from "../components/Navbar";
-import Image from "next/image";
-import React, { useEffect } from "react";
+import type { NextPage } from "next"
+import Head from "next/head"
+import Navbar from "../components/Navbar"
+import Image from "next/image"
+import React, { useEffect } from "react"
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         height={350}
       />
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

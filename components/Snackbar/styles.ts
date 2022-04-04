@@ -1,4 +1,4 @@
-import { makeStyles } from "../../lib/utils/makeStyles";
+import { makeStyles } from "../../lib/utils/makeStyles"
 
 const useStyles = makeStyles()((theme) => ({
   root: {
@@ -8,6 +8,6 @@ const useStyles = makeStyles()((theme) => ({
     marginLeft: -theme?.spacing(1),
     width: "100%",
   },
-}));
+}))
 
-export default useStyles;
+export default useStyles
