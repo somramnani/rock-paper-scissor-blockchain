@@ -1,4 +1,4 @@
-# Rock-Paper-Scissors-Blockchain
+#rock-paper-scissors-blockchain
 
 A simple DApp that is a rock, paper, scissor game.
 
